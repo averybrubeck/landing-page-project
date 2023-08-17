@@ -16,6 +16,12 @@ li {
     display: inline;
 }
 
+.heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
 .right-side-links {
     display: flex;
     gap: 16px;
@@ -24,22 +30,40 @@ li {
 .header {
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 20px;
 }
 
 .header-links {
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    gap: 16px;
 }
 
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.sign-up-button {
+    padding: 4px;
+    width: 100px;
+    border-radius: 10px 10px;
+    color: #f9faf8;
+    font-weight: bold;
+    background-color: #3882f6;
+}
 .quote-container {
-    background-color: #e5e7eb;   
+    background-color: #e5e7eb;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 .quote-text {
     font-size: 36px;
     font-style: italic;
-    text-align: center;
 }
 
 .call-to-action {
@@ -49,7 +73,7 @@ li {
     align-items: center;
     justify-content: center;
     gap: 100px;
-    margin: 120px;
+    margin: 60px;
     padding: 10px;
     border-radius: 5px;
     flex-wrap: wrap;
