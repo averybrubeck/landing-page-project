@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -13,6 +14,11 @@ a{
 li {
     list-style: none;
     display: inline;
+}
+
+.right-side-links {
+    display: flex;
+    gap: 16px;
 }
 
 .header {
@@ -27,16 +33,34 @@ li {
 }
 
 .quote-container {
-    background-color: #e5e7eb;
-    
+    background-color: #e5e7eb;   
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
 }
 
 .call-to-action {
     background-color: #3882f6;
     color: #f9faf8;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.sign-up-cta {
+    padding: 4px;
+    width: 100px;
+    background: transparent;
+    border-radius: 10px 10px;
+    color: #f9faf8;
+    font-weight: bold;
 }
 .footer {
     background-color: #1f2937;
