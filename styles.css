@@ -25,6 +25,7 @@ li {
 .right-side-links {
     display: flex;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .header {
