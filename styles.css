@@ -1,6 +1,42 @@
 body {
     padding: 0;
     margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+a{
+    text-decoration: none;
+    color: #efe7eb;
+}
+li {
+    list-style: none;
+    display: inline;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer {
     background-color: #1f2937;
@@ -9,3 +45,20 @@ body {
     justify-content: center;
     align-items: center;
 }
+    
+
+
+
+
+
+
+
+/* Fonts & Colors
+Dark background (header and footer) #1f2937
+Awesome Website Txt 48PX Extra Bold #f9faf8
+Header link txt 18px #efe7eb (greyish white)
+Header logo txt 24px #f9faf8
+Blue button/cta background #3882f6
+information header txt 36px extra bold #1f2937
+Quote section color #e5e7eb
+quote txt 6-px light italic #1f2937 */
