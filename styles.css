@@ -53,17 +53,23 @@ li {
 
 }
 
+.random-info {
+ font-size: 48px; 
+ margin-top: 60px;  
+}
+
 .middle-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 16px;
+}
+.sample-img {
+    height: 300px;
 }
 
-
-.sample-text {
-    display: flex;
-
-}
 
 .sign-up-button {
     padding: 4px;
